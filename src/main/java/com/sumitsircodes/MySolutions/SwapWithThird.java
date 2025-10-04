@@ -8,5 +8,7 @@ public class SwapWithThird {
         a=b;
         b=temp;
         System.out.println("After Swap: a="+a+" b="+b);
+        System.out.println("Swapping Done Successfully");
+        
     }
 }
