@@ -1,6 +1,4 @@
-package com.miscellaneous;
-
-
+package com.OOPsConceptJava;
 //Class and Objects Demo
 public class EmployeeWithoutMain {
     //Class Variables-That can access anywhere in the class
