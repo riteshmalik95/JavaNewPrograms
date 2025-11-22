@@ -1,12 +1,12 @@
-package com.OOPsConceptJava;
+package com.OOPsConceptJava.Class_Objects;
 //Class and Objects Demo
-public class EmployeeWithoutMain {
+public class Employee {
     //Class Variables-That can access anywhere in the class
     int empid;
     String empname;
     float empsal;
     String job;
-    EmployeeWithoutMain(){
+    Employee(){
         System.out.println("Default Constructor is called");
     }
 
@@ -19,7 +19,7 @@ public class EmployeeWithoutMain {
 
     public static void main(String[] args) {
         //All objects are of Employee type instead of this, they are independent.
-        EmployeeWithoutMain e1= new EmployeeWithoutMain();
+        Employee e1=new Employee();
         e1.empid=101;
         e1.empname="Aman Chauhan";
         e1.empsal= 50000.00F;
@@ -48,4 +48,3 @@ public class EmployeeWithoutMain {
 
     }
 }
-

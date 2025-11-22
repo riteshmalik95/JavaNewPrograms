@@ -1,25 +1,11 @@
-package com.OOPsConceptJava;
-//Class and Objects Demo
-public class Employee {
-    //Class Variables-That can access anywhere in the class
-    int empid;
-    String empname;
-    float empsal;
-    String job;
-    Employee(){
-        System.out.println("Default Constructor is called");
-    }
+package com.OOPsConceptJava.Class_Objects;
 
-    void display(){
-        System.out.println(empid);
-        System.out.println(empname);
-        System.out.println(empsal);
-        System.out.println(job);
-    }
-
+//Currently EmployeeWithoutMain class is in same package, if this class was in
+//another package then how would we access it--- import packagename.classname;
+public class EmployeeMain {
     public static void main(String[] args) {
         //All objects are of Employee type instead of this, they are independent.
-        Employee e1=new Employee();
+        EmployeeWithoutMain e1= new EmployeeWithoutMain();
         e1.empid=101;
         e1.empname="Aman Chauhan";
         e1.empsal= 50000.00F;

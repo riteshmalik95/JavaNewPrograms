@@ -1,7 +1,23 @@
-package com.OOPsConceptJava;
-//Currently EmployeeWithoutMain class is in same package, if this class was in
-//another package then how would we access it--- import packagename.classname;
-public class EmployeeMain {
+package com.OOPsConceptJava.Class_Objects;
+
+//Class and Objects Demo
+public class EmployeeWithoutMain {
+    //Class Variables-That can access anywhere in the class
+    int empid;
+    String empname;
+    float empsal;
+    String job;
+    EmployeeWithoutMain(){
+        System.out.println("Default Constructor is called");
+    }
+
+    void display(){
+        System.out.println(empid);
+        System.out.println(empname);
+        System.out.println(empsal);
+        System.out.println(job);
+    }
+
     public static void main(String[] args) {
         //All objects are of Employee type instead of this, they are independent.
         EmployeeWithoutMain e1= new EmployeeWithoutMain();
@@ -33,3 +49,4 @@ public class EmployeeMain {
 
     }
 }
+

@@ -1,4 +1,4 @@
-package com.OOPsConceptJava;
+package com.OOPsConceptJava.Class_Objects;
 
 public class StudentMain {
     public static void main(String[] args) {
