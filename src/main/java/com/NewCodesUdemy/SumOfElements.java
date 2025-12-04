@@ -3,7 +3,7 @@ package com.NewCodesUdemy;
 public class SumOfElements {
     public static void main(String[] args) {
 //    int[] a=
-
+//jgfgjhkgfgjiuydhghjghghj
 
 
 
