@@ -1,6 +1,14 @@
 package com.ritesh.javapractice.ArrayPrograms;
 //Without Set (Order Preserved): [5, 2, 6, 8, 7, 4]
 //With HashSet (No Order Guarantee): [2, 4, 5, 6, 7, 8]
+/* Remove Duplicates from an Array
+Goal:
+Keep only one occurrence of each element.
+Typical Logic:
+Use a Set to track seen elements
+Add element only if it hasn’t appeared before
+Key point:
+👉 You are cleaning a single array*/
 
 import java.util.*;
 

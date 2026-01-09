@@ -1,0 +1,20 @@
+FindCommonElementsInTwoArrays,
+RemoveDuplicateFromAnArray,
+returnDuplicatesElementsFromArray.........their logic will be same or different?
+
+Short answer: the core ideas are related, but the logic is not exactly the same.
+They often reuse similar techniques (like hashing or sorting), but the goal and flow differ.
+
+Important Insight
+
+Technique (Set / Map / sorting) → often the same
+
+Logic & condition → different
+
+Interviewers expect you to know WHY the condition changes
+
+One-liner Answer (Interview Friendly)
+
+The problems use similar data structures like Set or Map,
+but the logic differs because each problem has a different goal—comparison, elimination, or detection
+of duplicates.
