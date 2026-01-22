@@ -1,4 +1,4 @@
-package com.JavaPracticePrograms;
+package com.JavaPracticePrograms.StringCodes;
 
 import java.util.Arrays;
 
